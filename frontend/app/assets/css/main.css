@@ -1,0 +1,68 @@
+/* Diseño Navbar */
+.navbar-toggler, 
+.navbar-toggler:focus, 
+.navbar-toggler:active, 
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.navbar-brand{
+    font-weight: 900;
+}
+
+/* 1. Forzamos a que el enlace sea un contenedor flexible centrado */
+.icons-social {
+    padding: 0.5rem; 
+    border-radius: 5px;
+    margin: 0 0.1em;
+    color: #18191A !important;
+}
+
+/* 2. Controlamos el tamaño real del SVG del icono de Instagram */
+.icons-social svg,
+.icons-social .bi-instagram {
+    width: 20px !important;  
+    height: 20px !important; 
+}
+
+.icons-social:hover{
+    color:#FFF !important;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.opcions-navbar{
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    color: #18191A !important;
+}
+.opcions-navbar:hover{
+    color: #FFF !important;
+    background-color: #000000 !important;
+    border-radius: 5px !important;
+}
+
+.icono-navbar{
+    color: #18191A !important;
+    width: 25px !important;  
+    height: 25px !important; 
+}
+/* Diseño Navbar */
+ 
+/* Diseño Sidebar */
+.links-article{
+    color: #18191A !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.links-article:hover{
+    color: #00C853 !important;
+    text-decoration: underline;
+}
+.icon-play{
+    width: 40px !important;  
+    height: 40px !important;  
+}
+/* Diseño Sidebar */

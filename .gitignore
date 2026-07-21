@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+=======
 # === Backend (Python / Django) ===
 backend/venv/
 backend/__pycache__/
@@ -23,3 +49,4 @@ Thumbs.db
 
 # === Docker ===
 # (los datos de Postgres viven en un volumen de Docker, no en el repo)
+>>>>>>> 2f39e594c9da97592f07f69a0006861c0bfdd7bc
