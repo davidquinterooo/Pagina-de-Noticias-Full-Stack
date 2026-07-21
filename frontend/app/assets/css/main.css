@@ -1,3 +1,4 @@
+/* Diseño Navbar */
 .navbar-toggler, 
 .navbar-toggler:focus, 
 .navbar-toggler:active, 
@@ -41,3 +42,27 @@
     background-color: #000000 !important;
     border-radius: 5px !important;
 }
+
+.icono-navbar{
+    color: #18191A !important;
+    width: 25px !important;  
+    height: 25px !important; 
+}
+/* Diseño Navbar */
+ 
+/* Diseño Sidebar */
+.links-article{
+    color: #18191A !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.links-article:hover{
+    color: #00C853 !important;
+    text-decoration: underline;
+}
+.icon-play{
+    width: 40px !important;  
+    height: 40px !important;  
+}
+/* Diseño Sidebar */
