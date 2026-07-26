@@ -70,7 +70,7 @@
         <!-- 'border-top mt-2 pt-2' crea la separación visual entre la fila superior y el menú -->
         <ul class="navbar-nav w-100 nav-justified text-center">
           <li class="nav-item">
-            <a class="nav-link active opcions-navbar" href="#">Options 1</a>
+            <a class="nav-link active opcions-navbar" href="/inicio.vue">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link opcions-navbar" href="#">Options 2</a>

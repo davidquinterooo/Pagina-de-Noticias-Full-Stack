@@ -66,3 +66,23 @@
     height: 40px !important;  
 }
 /* Diseño Sidebar */
+
+/* Diseño de las tarjetas */
+.links-card{
+    color: #18191A !important;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.links-card:hover{
+    color: #4B5563 !important;
+    text-decoration: underline;
+}
+.card-hover {
+  /* Hace la animación suave al entrar y salir del hover*/
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: scale(1.01); 
+}
+/* Diseño de las tarjetas */
