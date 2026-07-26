@@ -7,7 +7,6 @@ const { data: noticia, status, error } = await useAsyncData(
   () => getNoticiaPorSlug(route.params.slug as string)
 )
 
-// SEO por noticia
 useSeoMeta({
   title: () => noticia.value?.titulo,
   description: () => noticia.value?.resumen,
@@ -20,15 +19,17 @@ useSeoMeta({
     <div v-if="status === 'pending'">Cargando...</div>
     <div v-else-if="error" class="alert alert-danger">Noticia no encontrada.</div>
 
-    <article v-else-if="noticia">
-      <h1>{{ noticia.titulo }}</h1>
-      <p class="text-muted">{{ new Date(noticia.fecha_publicacion).toLocaleDateString() }}</p>
+    <article class="container" v-else-if="noticia">
+      <h1 class="fw-bold text-black fs-1">{{ noticia.titulo }}</h1>
+      <p class="fs-6 text-dark">Publicado: {{ new Date(noticia.fecha_publicacion).toLocaleDateString() }}</p>
+      <p class="fw-bold text-black fs-5">{{ noticia.resumen }}</p>
       <img
         :src="useMediaUrl(noticia.imagen_portada)"
         :alt="noticia.imagen_portada_alt"
         class="img-fluid rounded mb-4"
       />
-      <div v-html="noticia.contenido"></div>
+      <p class="fs-6 text-dark">{{ noticia.imagen_portada_alt }}</p>
+      <div class="text-black fs-5 container mx-1" v-html="noticia.contenido"></div>
     </article>
 
     <div v-else class="alert alert-warning">Noticia no encontrada.</div>
