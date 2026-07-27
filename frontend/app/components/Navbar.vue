@@ -1,3 +1,11 @@
+<script setup>
+import { ref } from 'vue'
+// Esta variable controla si el menú está abierto o cerrado 
+const isMenuOpen = ref(false)
+
+// Composable que controla el overlay de búsqueda
+const { open } = useSearchOverlay()
+</script>
 <template>
   <nav class="navbar navbar-expand-lg flex-wrap">
     <div
@@ -5,11 +13,22 @@
     >
       <!-- ================= FILA 1 (ARRIBA) ================= -->
       <!-- Nombre a la izquierda (Ocupa su espacio libre) -->
-      <a class="navbar-brand fs-2" href="#">Name Page</a>
+      <NuxtLink
+        class="navbar-brand fs-2 nav-link fw-bold"
+        to="/"
+        style="text-decoration: none;"
+      >
+      Name Page
+      </NuxtLink>
 
       <!-- Redes Sociales a la derecha (Fuera del menú colapsable para que no se mezclen) -->
       <!-- 'ms-auto' las empuja a la derecha, 'd-none d-lg-flex' las oculta en móviles y las muestra en escritorio -->
       <ul class="navbar-nav ms-auto flex-row gap-2 d-none d-lg-flex">
+        <li class="nav-item">
+          <button type="button" class="btn-link text-dark nav-link icons-social d-inline-flex align-items-center" @click="open">
+            <BootstrapIcon name="search" />
+          </button>
+        </li>
         <li class="nav-item">
           <a
             class="nav-link icons-social d-inline-flex align-items-center"
@@ -70,22 +89,48 @@
         <!-- 'border-top mt-2 pt-2' crea la separación visual entre la fila superior y el menú -->
         <ul class="navbar-nav w-100 nav-justified text-center">
           <li class="nav-item">
-            <a class="nav-link active opcions-navbar" href="/inicio.vue">Inicio</a>
+            <NuxtLink
+              class="nav-link opcions-navbar"
+              to="/"
+              style="text-decoration: none;"
+            >
+            Inicio
+            </NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link opcions-navbar" href="#">Options 2</a>
+            <NuxtLink
+              class="nav-link opcions-navbar"
+              to="/"
+              style="text-decoration: none;"
+            >
+            Inicio
+            </NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link opcions-navbar" href="#">Options 3</a>
+            <NuxtLink
+              class="nav-link opcions-navbar"
+              to="/"
+              style="text-decoration: none;"
+            >
+            Inicio
+            </NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link opcions-navbar" href="#">Options 4</a>
+            <NuxtLink
+              class="nav-link opcions-navbar"
+              to="/"
+              style="text-decoration: none;"
+            >
+            Inicio
+            </NuxtLink>
           </li>
-
           <!-- Duplicado de redes oculto: En móviles aparecerán abajo del menú de forma limpia -->
           <div
             class="d-flex d-lg-none gap-2 justify-content-center"
           >
+            <a class="nav-link icons-social" href="#"
+              ><BootstrapIcon name="search"
+            /></a>
             <a class="nav-link icons-social" href="#"
               ><BootstrapIcon name="facebook"
             /></a>
@@ -105,8 +150,4 @@
   </nav>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-// Esta variable controla si el menú está abierto o cerrado 
-const isMenuOpen = ref(false)
-</script>
+

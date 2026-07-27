@@ -86,3 +86,24 @@
   transform: scale(1.01); 
 }
 /* Diseño de las tarjetas */
+
+/* Links del buscador */
+.input-buscador{
+    border-color: #00C853 !important;
+}
+
+.links-search{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: color 0.2s ease-in-out;
+}
+.links-search:hover{
+    transform: scale(1.01); 
+}
+.links-search>div>h2{
+    transition: color 0.2s ease-in-out;
+}
+.links-search>div>h2:hover{
+    color: #00C853 !important;
+}
+
+/* Links del buscador */

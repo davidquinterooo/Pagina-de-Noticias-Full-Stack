@@ -1,155 +1,28 @@
-<!-- <template>
-  <div class="container">
-    <ul class="list-unstyled p-0 row gx-2 gy-5 justify-content-evenly">
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-      <li class="col-12 col-sm-6 col-md-auto">
-        <div class="card-hover w-100" style="max-width: 17rem;">
-          <a class="links-card" href="https://www.google.com" style="text-decoration: none;">
-            <img 
-              src="/portadahd.jpg" 
-              class="card-img-top w-100" 
-              alt="..."
-              style="height: 160px; object-fit: cover; border-radius: 5px;"
-            >
-            <p class="fs-5 lh-1 fw-bold mt-2">
-              Some quick example text to build on the card title and make up the bulk of the card’s content.
-            </p>
-          </a>        
-        </div>
-      </li>
-    </ul>
-  </div>
-</template> -->
-
 <script setup lang="ts">
+import { ref, watch } from 'vue';
 const { getNoticias } = useNoticias();
 const page = ref(1);
 
-const { data, status, error, refresh } = await useAsyncData(
-  () => `noticias-page-${page.value}`,
-  () => getNoticias({ page: page.value }),
-  { default: () => ({ count: 0, next: null, previous: null, results: [] }) }
-)
+// const { data, status, error, refresh } = await useAsyncData(
+//   () => `noticias-page-${page.value}`,
+//   () => getNoticias({ page: page.value }),
+//   { default: () => ({ count: 0, next: null, previous: null, results: [] }) }
+// )
 
+const route = useRoute()
+const busqueda = ref((route.query.q as string) || '')
+
+const { data, status, error, refresh } = await useAsyncData(
+  () => `noticias-page-${page.value}-search-${busqueda.value}`,
+  () => getNoticias({ page: page.value, search: busqueda.value || undefined })
+)
+// Si el usuario busca de nuevo desde el overlay estando ya en el home,
+// reacciona al cambio del query param
+watch(() => route.query.q, (nuevoQ) => {
+  busqueda.value = (nuevoQ as string) || ''
+  page.value = 1
+  refresh()
+})
 const cambiarPagina = (nuevaPagina: number) => {
   page.value = nuevaPagina;
   refresh();
