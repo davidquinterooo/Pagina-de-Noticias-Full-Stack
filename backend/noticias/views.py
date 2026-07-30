@@ -22,6 +22,8 @@ class NoticiaViewSet(viewsets.ModelViewSet):
         return qs
 
     def get_serializer_class(self):
-        if self.action == 'list':
+        # Público (sin autenticar) en el listado: serializer liviano
+        if self.action == 'list' and not self.request.user.is_authenticated:
             return NoticiaListSerializer
+        # Admin autenticado (listado o cualquier otra acción): serializer completo
         return NoticiaDetailSerializer
