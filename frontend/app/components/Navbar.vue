@@ -32,7 +32,7 @@ const { open } = useSearchOverlay()
         <li class="nav-item">
           <a
             class="nav-link icons-social d-inline-flex align-items-center"
-            href="#"
+            href="https://www.facebook.com"
           >
             <BootstrapIcon name="facebook" />
           </a>
@@ -40,7 +40,7 @@ const { open } = useSearchOverlay()
         <li class="nav-item">
           <a
             class="nav-link icons-social d-inline-flex align-items-center"
-            href="#"
+            href="https://www.instagram.com"
           >
             <BootstrapIcon name="instagram" />
           </a>
@@ -48,7 +48,7 @@ const { open } = useSearchOverlay()
         <li class="nav-item">
           <a
             class="nav-link icons-social d-inline-flex align-items-center"
-            href="#"
+            href="https://x.com/?lang=es"
           >
             <BootstrapIcon name="twitter-x" />
           </a>
@@ -56,7 +56,7 @@ const { open } = useSearchOverlay()
         <li class="nav-item">
           <a
             class="nav-link icons-social d-inline-flex align-items-center"
-            href="#"
+            href="https://www.youtube.com"
           >
             <BootstrapIcon name="youtube" />
           </a>
