@@ -208,9 +208,9 @@ NUXT_PUBLIC_API_BASE=http://localhost:8000/api
 - [x] Modelo de datos `Noticia`
 - [x] Configuración del entorno de desarrollo
 - [x] Modelo en Django + Django Admin
-- [ ] Serializers y API REST (Django REST Framework)
-- [ ] Frontend: feed, detalle de noticia, buscador
-- [ ] Panel de administración en el frontend
+- [x] Serializers y API REST (Django REST Framework)
+- [x] Frontend: feed, detalle de noticia, buscador
+- [x] Panel de administración en el frontend
 - [ ] Migración a Supabase (producción)
 - [ ] Despliegue (backend + frontend)
 
